@@ -1,8 +1,17 @@
+# Avanade Fundamental Project
 # Fantasy Football :soccer:
 
-## Planning and Requirements Analysis
+## Contents
+1. [Introduction](#introduction)
+2. [Requirements Analysis](#requirements)
+3. [Architecture](#architecture)
+    1. [Database Structure](#db)
+4. [Planning](#planning)
+5. [Risk Assessment](#risk)
 
-### Requirements
+## 1. Introduction <a name="introduction"></a>
+
+## 2. Requirements Analysis <a name="requirements"></a>
 
 * The web application should allow a user to create an account
 * The web application should allow a user to log in 
@@ -17,12 +26,13 @@
 * The web application should allow users to select substitutes
 * The web application should display the images of players
 
+## 3. Architecture <a name="architecture"></a>
+## 3.1. Database Structure <a name="db"></a>
+
+## 4. Planning <a name="planning"></a>
 
 
-
-## Defining Requirements
-### Software Requirement Specification
-### Risk Assessment
+## 5. Risk Assessment <a name="requirements"></a>
 
 | Risk                                                             | Likelihood | Severity | Control Measure | Response                                                        | Revisit Date |
 | ---------------------------------------------------------------- | ---------- | -------- | --------------- | --------------------------------------------------------------- | ------------ |
