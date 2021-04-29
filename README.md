@@ -7,10 +7,10 @@
 ## Contents
 1. [Introduction](#introduction)
 2. [Requirements Analysis](#requirements)
-    2.1. [Game Rules](#rules)
-    2.2. [Requirements](#requirements2)
+  2.1. [Game Rules](#rules)
+  2.2. [Requirements](#requirements2)
 3. [Architecture](#architecture)
-    3.1. [Database Structure](#db)
+  3.1. [Database Structure](#db)
 4. [Planning](#planning)
 5. [Risk Assessment](#risk)
 
@@ -54,7 +54,7 @@ The project uses a single relational database containing 5 tables: users, squads
 ![entity relationship diagram](Images/entity_relationship_diagram.png)
 
 ## 4. Planning <a name="planning"></a>
- The type of Kanban board used within this project is **Azure Boards**. The requirements gathered in [Section 2](#requirements) were used to create the **issues** inside of **Azure Boards** to track the implementation of features.
+ The type of Kanban board used within this project is **Azure Boards**. The requirements gathered in [Section 2](#requirements) were used to create the **issues** inside of **Azure Boards** to track the implementation of features within the project.
 
 ## 5. Risk Assessment <a name="requirements"></a>
 
