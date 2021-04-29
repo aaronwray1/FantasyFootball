@@ -7,10 +7,10 @@
 ## Contents
 1. [Introduction](#introduction)
 2. [Requirements Analysis](#requirements)
-    2.1. [Game Rules](#rules)
-    2.2. [Requirements](#requirements2)
+    1. [Game Rules](#rules)
+    2. [Requirements](#requirements2)
 3. [Architecture](#architecture)
-    3.1. [Database Structure](#db)
+    1. [Database Structure](#db)
 4. [Planning](#planning)
 5. [Risk Assessment](#risk)
 
@@ -18,7 +18,7 @@
 The aim of this project is to create a simplified and minimal solution of the [Premier League Fantasy Football (game)](#https://fantasy.premierleague.com/). This document provides details of design and implementation of the project. Additonally, the data used within the project can be found [here](#https://github.com/vaastav/Fantasy-Premier-League).
 
 ## 2. Requirements Analysis <a name="requirements"></a>
-### 2.1 Game Rules <a name="requirements"></a>
+### 2.i. Game Rules <a name="requirements"></a>
 The **game** is a large and complex solution. Therefore the project will only use a subset of its rules. Please find them below:
 
 A user of the web application has a **budget** of **£100m** to pick a squad of **15 different players** from the **Premier League**, consisting of: 
@@ -32,7 +32,7 @@ A squad can contain a **maximum** of **3 players** from a **single Premier Leagu
 
 The starting **11 players** along with **4 substitutes** must be selected by the user. 
 
-### 2.2 Requirements <a name="requirements2"></a>
+### 2.ii. Requirements <a name="requirements2"></a>
 * User Accounts
   * The web application should allow a user to create an account
   * The web application should allow a user to log in 
@@ -49,7 +49,7 @@ The starting **11 players** along with **4 substitutes** must be selected by the
   * The web application should display the images of players
 
 ## 3. Architecture & Design <a name="architecture"></a>
-### 3.1. Database Structure <a name="db"></a>
+### 3.i. Database Structure <a name="db"></a>
 The project uses a single relational database containing 5 tables: users, squads, squadplayers, players, teams. The **entity relationship diagram** for the database is shown below:
 ![entity relationship diagram](Images/entity_relationship_diagram.png)
 
