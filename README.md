@@ -7,10 +7,10 @@
 ## Contents
 1. [Introduction](#introduction)
 2. [Requirements Analysis](#requirements)
-  i. [Game Rules](#rules)
-  ii. [Requirements](#requirements2)
+    2.1. [Game Rules](#rules)
+    2.2. [Requirements](#requirements2)
 3. [Architecture](#architecture)
-  i. [Database Structure](#db)
+    3.1. [Database Structure](#db)
 4. [Planning](#planning)
 5. [Risk Assessment](#risk)
 
